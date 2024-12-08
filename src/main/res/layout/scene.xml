@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffB3E5FC">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="识别结果将显示在这里" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/backround">
+
+        <Button
+            android:id="@+id/buttonClick"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#00000000"
+            android:text="拍摄"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#00000000"
+            android:text="返回"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+</RelativeLayout>

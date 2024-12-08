@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/a"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:typeface="serif"></TextView>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:gravity="center"
+        android:foreground="@drawable/main1back"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="220dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/func2"
+                style="@android:style/Widget.Material.Light.Button"
+
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/card"
+                android:fontFamily="serif"
+                android:textSize="30dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/f2" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/func1"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:background="@drawable/card"
+                android:drawableTintMode="add"
+                android:drawingCacheQuality="low"
+                android:fontFamily="serif"
+                android:textSize="30dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/f1" />
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/func3"
+                style="@android:style/Widget.Material.Light.Button"
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:background="@drawable/card"
+                android:fontFamily="serif"
+                android:textSize="30dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/f3" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

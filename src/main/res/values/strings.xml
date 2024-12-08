@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">灵眸</string>
+    <string name="name">lsy</string>
+    <string-array name="model_array">
+        <item>m</item>
+        <item>m-416</item>
+        <item>g</item>
+        <item>ELite0_320</item>
+        <item>ELite1_416</item>
+        <item>ELite2_512</item>
+        <item>RepVGG-A0_416</item>
+    </string-array>
+    <string-array name="cpugpu_array">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+
+    <string name="user1">NEED HELP</string>
+    <string name="user2">OFFER HELP</string>
+    <string name="sign_in">LOG IN</string>
+    <string name="register">SIGN UP</string>
+
+    <string name="f1">识物</string>
+    <string name="f2">读文</string>
+    <string name="f3">赏景</string>
+
+    <string name="a">看 见 世 界</string>
+    <string name="b">寻 求 帮 助</string>
+    <string name="a11">看 见 他 们</string>
+    <string name="b11">给 予 帮 助</string>
+    <string name="c">设  置</string>
+
+    <string name="fa">see</string>
+    <string name="fb">call</string>
+    <string name="fc">social</string>
+    <string name="fd">set</string>
+
+
+    <string name="f3a">呼叫志愿者</string>
+    <string name="f3b">呼叫紧急联系人</string>
+
+    <string name="p1">修改资料</string>
+    <string name="p2">头像</string>
+    <string name="p3">id</string>
+    <string name="p4">身份</string>
+    <string name="p5">电话</string>
+    <string name="p6">密码</string>
+    <string name="p7">保存</string>
+    <string name="p8">退出</string>
+
+    <string name="a1">关于我们</string>
+    <string name="a2">灵眸旨在帮助盲人或低视力的人，该应用程序由盲人和低视力人士以及有视力的志愿者组成的全球社区组成。</string>
+    <string name="a22">灵眸从科技和人际关系中获得能力，为视力下降的人带来视力。盲人和低视力用户可以通过自己使用视觉功能，由摄像头捕捉面前事物，再聆听语音播报，完成识物、读文等任务，也可以通过实时视频通话，由志愿者提供视觉帮助，以完成更加复杂的任务。</string>
+    <string name="a23">该应用程序支持在Android上使用。</string>
+    <string name="a3">帮助和反馈</string>
+    <string name="a4">如果在使用过程中遇到问题，或有任何建议，欢迎通过电子邮件联系我们。我们将尽快为您提供帮助！</string>
+    <string name="a5">联系邮箱: 1393263068@qq.com</string>
+    <string name="a6">感谢您的反馈，帮助我们不断改进应用体验！</string>
+
+    <string name="c1">视障患者数量</string>
+    <string name="c2">志愿者数量</string>
+
+    <string name="tks1">感谢您为视障人群带来光明</string>
+    <string name="tks2">若有需要，他们将呼叫您以寻求帮助</string>
+</resources>

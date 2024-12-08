@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A1D4F8</color>
+    <color name="colorPrimaryDark">#002C6F</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="primary_100">#0085ff</color>
+    <color name="primary_200">#69b4ff</color>
+    <color name="primary_300">#e0ffff</color>
+    <color name="accent_100">#006fff</color>
+    <color name="accent_200">#e1ffff</color>
+    <color name="text_100">#FFFFFF</color>
+    <color name="text_200">#9e9e9e</color>
+    <color name="bg_100">#1E1E1E</color>
+    <color name="bg_200">#2d2d2d</color>
+    <color name="bg_300">#454545</color>
+
+    <!-- Second set of colors -->
+    <color name="primary_200_alternative">#b6ccd8</color>
+    <color name="primary_300_alternative">#3b3c3d</color>
+    <color name="accent_100_alternative">#71c4ef</color>
+    <color name="accent_200_alternative">#00668c</color>
+    <color name="text_100_alternative">#1d1c1c</color>
+    <color name="text_200_alternative">#313d44</color>
+    <color name="bg_100_alternative">#fffefb</color>
+    <color name="bg_200_alternative">#f5f4f1</color>
+    <color name="bg_300_alternative">#cccbc8</color>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffB3E5FC">
+
+
+    <SurfaceView
+        android:id="@+id/cameraview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spinnerModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/model_array"
+            android:visibility="invisible" />
+
+        <Spinner
+            android:id="@+id/spinnerCPUGPU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/cpugpu_array"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/backround">
+
+        <Button
+            android:id="@+id/buttonSwitchCamera"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#00000000"
+            android:text="翻转摄像头"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#00000000"
+            android:text="返回"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</RelativeLayout>
